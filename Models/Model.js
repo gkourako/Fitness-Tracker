@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const wokroutSchema = new Scehma({
+const workoutSchema = new Schema({
   name: {
     type: String,
     trim: true,
@@ -34,7 +34,7 @@ const wokroutSchema = new Scehma({
   }
 });
 
-const Workout = mongoose.model("Workout", WorkoutSchema);
+const Workout = mongoose.model("Workout", gainsSchema);
 
 module.exports = Workout;
 
